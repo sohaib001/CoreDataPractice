@@ -18,6 +18,8 @@
 		F8603E0B16F6E7BC00D274F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8603E0A16F6E7BC00D274F9 /* Default@2x.png */; };
 		F8603E0D16F6E7BC00D274F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8603E0C16F6E7BC00D274F9 /* Default-568h@2x.png */; };
 		F8603E1016F6E7BC00D274F9 /* CoreDataPractice2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8603E0E16F6E7BC00D274F9 /* CoreDataPractice2.xcdatamodeld */; };
+		F8603E1A16F6E88000D274F9 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8603E1816F6E88000D274F9 /* CoreDataViewController.m */; };
+		F8603E1B16F6E88000D274F9 /* CoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8603E1916F6E88000D274F9 /* CoreDataViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		F8603E0A16F6E7BC00D274F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F8603E0C16F6E7BC00D274F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F8603E0F16F6E7BC00D274F9 /* CoreDataPractice2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPractice2.xcdatamodel; sourceTree = "<group>"; };
+		F8603E1716F6E88000D274F9 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		F8603E1816F6E88000D274F9 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		F8603E1916F6E88000D274F9 /* CoreDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreDataViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				F8603E0616F6E7BC00D274F9 /* AppDelegate.m */,
 				F8603E0E16F6E7BC00D274F9 /* CoreDataPractice2.xcdatamodeld */,
 				F8603DFD16F6E7BC00D274F9 /* Supporting Files */,
+				F8603E1716F6E88000D274F9 /* CoreDataViewController.h */,
+				F8603E1816F6E88000D274F9 /* CoreDataViewController.m */,
+				F8603E1916F6E88000D274F9 /* CoreDataViewController.xib */,
 			);
 			path = CoreDataPractice2;
 			sourceTree = "<group>";
@@ -161,6 +169,7 @@
 				F8603E0916F6E7BC00D274F9 /* Default.png in Resources */,
 				F8603E0B16F6E7BC00D274F9 /* Default@2x.png in Resources */,
 				F8603E0D16F6E7BC00D274F9 /* Default-568h@2x.png in Resources */,
+				F8603E1B16F6E88000D274F9 /* CoreDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				F8603E0316F6E7BC00D274F9 /* main.m in Sources */,
 				F8603E0716F6E7BC00D274F9 /* AppDelegate.m in Sources */,
 				F8603E1016F6E7BC00D274F9 /* CoreDataPractice2.xcdatamodeld in Sources */,
+				F8603E1A16F6E88000D274F9 /* CoreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 				F8603E1516F6E7BC00D274F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
